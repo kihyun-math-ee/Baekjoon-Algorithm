@@ -20,3 +20,9 @@
 
 ---
 *"Consistency is the key to mastery."*
+
+## 📅 Study Log
+
+| Date | Category | Problem | Key Learnings |
+| :--- | :--- | :--- | :--- |
+| 2026-01-25 | 조건문 | 1330, 9498, 2753 | `if-elif` 흐름 제어, 논리 연산자 우선순위(`!=` > `and` > `or`) |
