@@ -1,7 +1,14 @@
-A, B = map(int, input().split()) # 첫째 줄에 들어가므로 사상(map)
-C = int(input()) # 둘째 줄에 들어가므로 따로 정수 입력값을 받음
+import sys
 
-if (A*60)+B+C < 1440: # 모든 시간의 합이 24시간 미만
-    print((A*60+B+C)//60, (A*60+B+C)%60) # 시간은 몫으로, 분은 나머지로 처리
-else: # 모든 시간의 합이 24시간 이상
-    print(((A*60+B+C)//60)-24, (A*60+B+C)%60) # 시간에서 24시간을 빼서 0시로 초기화
+# 속도 최적화를 위해 sys.stdin.readline 사용
+A, B = map(int, sys.stdin.readline().split())
+C = int(sys.stdin.readline())
+
+# 모든 시간을 분 단위로 환산
+# 중복 연산((A*60)+B+C) 제거하여 변수에 저장
+total_min = A * 60 + B + C
+
+# % 24를 통해 24시 초과 시 0부터 순환되도록 처리 (if문 제거)
+# (total_min // 60) % 24 : 시(hour)
+# total_min % 60 : 분(minute)
+print((total_min // 60) % 24, total_min % 60)
