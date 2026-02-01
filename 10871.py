@@ -6,5 +6,3 @@ A = list(map(int, sys.stdin.readline().split()))
 for a in A:
     if a < X:
         print(a, end=" ")
-    else:
-        continue 
