@@ -7,7 +7,6 @@ basket = [0] * N
 for _ in range(M):
     i, j, k = map(int, sys.stdin.readline().split())
     
-    for idx in range(i - 1, j):
-        basket[idx] = k
+    basket[i-1:j] = [k] * (j - i + 1)
 
 print(*basket)
