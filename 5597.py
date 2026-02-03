@@ -1,11 +1,11 @@
 import sys
-students = list(range(1, 31))
+
+submitted = []
 
 for _ in range(28):
-    N = int(sys.stdin.readline())
-    students.remove(N)
+    n = int(sys.stdin.readline())
+    submitted.append(n)
 
-print(min(students))
-print(max(students))
-        
-    
+for i in range(1, 31):
+    if i not in submitted:
+        print(i)
