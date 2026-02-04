@@ -1,8 +1,9 @@
 import sys
-module = []
+
+numbers = set()
+
 for _ in range(10):
     n = int(sys.stdin.readline())
-    m = n % 42
-    if m not in module:
-        module.append(m)
-print(len(module))
+    numbers.add(n % 42)
+
+print(len(numbers))
