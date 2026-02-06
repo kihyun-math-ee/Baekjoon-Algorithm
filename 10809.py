@@ -1,10 +1,6 @@
 import sys
 S = sys.stdin.readline().strip()
-alphabet = [-1] * 26
 
-for i, char in enumerate(S):
-    idx = ord(char) - ord('a')
-    if alphabet[idx] == -1:
-        alphabet[idx] = i
+for x in 'abcdefghijklmnopqrstuvwxyz':
+    print(S.find(x), end=' ')
 
-print(*alphabet)
