@@ -41,3 +41,5 @@
 | 2026-02-06 | CS기초/실험 | Memory Reference | `a=b`는 주소 공유, `a=b[:]`는 값 복사 (Mutable/Immutable) |
 | 2026-02-07 | String | 1152, 2908, 5622 | `str.split()` (Empty Args), Slicing `[::-1]`, Data-Driven Logic (List Lookup) |
 | 2026-02-07 | Data Structure | 10828 | Class Implementation, Amortized Analysis (Dynamic Array Resizing) |
+| 2026-02-08 | String / Impl | 11718, 25083, 3003, 2444 | `sys.stdin.read()` (EOF), Escape Char (`\"`), List Unpacking (`*`), Symmetry Pattern |
+| 2026-02-08 | Data Structure | 10845 | Queue Class Implementation, $O(N)$ Shifting Cost Analysis |
