@@ -1,13 +1,11 @@
 import sys
 N = int(sys.stdin.readline())
-cnt = N
+cnt = 0
 
 for _ in range(N):
     word = sys.stdin.readline().strip()
-    for i in range(len(word)-1):
-        if word[i] != word[i+1]:
-            if word[i] in word[i+1:]:
-                cnt -= 1
-                break
-
+    indices = [word.find(x) for x in word]
+    if indices == sorted(indices):
+        cnt += 1
+        
 print(cnt)
