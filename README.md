@@ -43,4 +43,5 @@ Commit messages must include the problem number and title.
 | 2026-02-07 | Data Structure | 10828 | Class Implementation, Amortized Analysis (Dynamic Array Resizing) |
 | 2026-02-08 | String / Impl | 11718, 25083, 3003, 2444 | `sys.stdin.read()` (EOF), Escape Char (`\\"`), List Unpacking (`*`), Symmetry Pattern |
 | 2026-02-08 | Data Structure | 10845 | Queue Class Implementation, $O(N)$ Shifting Cost Analysis |
-
+| 2026-02-09 | String | 10988, 1157, 2941, 1316 | Slicing `[::-1]`, Token Replacement (`replace`), and Monotonic Check (`sorted`) for Group Words. |
+| 2026-02-09 | Data Structure | 10866 | Implemented Deque; Analyzed memory shift cost ($O(N)$) of `insert(0)` vs `append` ($O(1)$). |
