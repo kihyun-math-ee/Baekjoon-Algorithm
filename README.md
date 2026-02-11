@@ -47,3 +47,4 @@ Commit messages must include the problem number and title.
 | 2026-02-09 | Data Structure | 10866 | Implemented Deque; Analyzed memory shift cost ($O(N)$) of `insert(0)` vs `append` ($O(1)$). |
 | 2026-02-10 | Implementation | 25206, 2738 | Parsed mixed inputs for Weighted Avg and implemented 2D Matrix addition using nested loops. |
 | 2026-02-10 | Data Structure | 1406 | Implemented O(1) Text Editor using Two Stacks to avoid O(N) shifting. |
+| 2026-02-11 | 2D Array | 2566, 10798 | Found Max in Grid; Implemented Vertical Reading for Jagged Arrays without IndexError. |
