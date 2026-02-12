@@ -49,3 +49,4 @@ Commit messages must include the problem number and title.
 | 2026-02-10 | Data Structure | 1406 | Implemented O(1) Text Editor using Two Stacks to avoid O(N) shifting. |
 | 2026-02-11 | 2D Array | 2566, 10798 | Found Max in Grid; Implemented Vertical Reading for Jagged Arrays without IndexError. |
 | 2026-02-11 | Data Structure | 1158 | Implemented Circular Queue simulation using deque.rotate() to solve Josephus Problem in O(NK). |
+| 2026-02-12 | Python OOP | StarCraft Project | Implemented Unit hierarchy using Single/Multiple Inheritance and Polymorphism to simulate game logic. |
