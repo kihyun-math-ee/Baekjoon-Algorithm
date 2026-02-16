@@ -54,3 +54,4 @@ Commit messages must include the problem number and title.
 | 2026-02-14 | Python OOP | Matrix Class | Implemented a Matrix class with `__str__` magic method and immutable arithmetic operations (Add, Multiply) to master Object encapsulation. |
 | 2026-02-15 | Math, Implementation | 11005 | Converted Decimal to Base-N string using Euclidean division and string lookup table. |
 | 2026-02-15 | Python OOP | Matrix Transpose | Extended Matrix class to include Transpose operation (Index Swapping) and fixed input flow logic. |
+| 2026-02-16 | Math, Greedy | 2720 | Calculated minimum coin count using greedy algorithm and modulo arithmetic. |
