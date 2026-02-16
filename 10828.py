@@ -1,63 +1,89 @@
 import sys
 
-# [Track B] Stack Implementation with Python List
-# Time Complexity Analysis: Amortized O(1) for push
+# [Track B] Extended Stack Implementation with Python List
+# Features: Standard LIFO + Debugging (Check) + Manipulation (Reverse)
 class Stack:
     def __init__(self):
+        # Initialization
+        # Time Complexity: O(1)
         self.stack = []
+
+    def check(self):
+        # [Experiment] Debugging Tool
+        # Time Complexity: O(N) 
+        # Reason: Must iterate through all N elements to print them.
+        print(self.stack)
 
     def push(self, X):
         # Time Complexity: Amortized O(1)
-        # Reason: Python lists are dynamic arrays. Resizing (copying) happens rarely (when full).
-        # Most operations are simple assignments O(1), making the average cost O(1).
+        # Reason: Python lists are dynamic arrays. Resizing happens rarely.
+        # Most appends are simple assignments at the end.
         self.stack.append(X)
-    
+
     def pop(self):
         # Time Complexity: O(1)
-        # Reason: Removing the last element doesn't require shifting other elements.
+        # Reason: Removing the last element is instant. No shifting required.
         if len(self.stack) == 0:
-            return -1
-        return self.stack.pop()
+            print(-1)
+        else:    
+            print(self.stack.pop())
 
     def size(self):
         # Time Complexity: O(1)
-        # Reason: Python lists store their length in a generic struct variable (ob_size).
-        return len(self.stack)
+        # Reason: Python stores the list length in a struct variable (ob_size).
+        # It does not count elements every time.
+        print(len(self.stack))
 
     def empty(self):
         # Time Complexity: O(1)
         if len(self.stack) == 0:
-            return 1
+            print(1)
         else:
-            return 0
+            print(0)
 
     def top(self):
         # Time Complexity: O(1)
-        # Reason: Direct index access is constant time.
+        # Reason: Direct index access [-1] is constant time.
         if len(self.stack) == 0:
-            return -1
-        return self.stack[-1]
+            print(-1)
+        else:
+            print(self.stack[-1])
 
+    def reverse(self):
+        # [Experiment] Reverse the Stack order
+        # Time Complexity: O(N)
+        # Reason: Must swap N/2 pairs of elements in memory.
+        # This is significantly more expensive than push/pop.
+        self.stack.reverse()
+        print("Stack Reversed.")
+
+# --- Main Execution ---
 if __name__ == "__main__":
     N = int(sys.stdin.readline())
-    my_stack = Stack()  # 인스턴스 생성
+    my_stack = Stack()
     
     for _ in range(N):
-        command = sys.stdin.readline().split()
-        cmd_type = command[0]
-        
-        if cmd_type == 'push':
-            # push 명령은 뒤에 숫자가 따라옴
-            my_stack.push(int(command[1]))
-        
-        elif cmd_type == 'pop':
-            print(my_stack.pop())
-        
-        elif cmd_type == 'size':
-            print(my_stack.size())
+        line = sys.stdin.readline().split()
+        command = line[0]
 
-        elif cmd_type == 'empty':
-            print(my_stack.empty())
+        if command == 'push':
+            number = int(line[1])
+            my_stack.push(number)
 
-        elif cmd_type == 'top':
-            print(my_stack.top())
+        elif command == 'pop':
+            my_stack.pop()
+
+        elif command == 'size':
+            my_stack.size()
+
+        elif command == 'empty':
+            my_stack.empty()
+
+        elif command == 'top':
+            my_stack.top()
+
+        elif command == 'check':
+            my_stack.check()
+
+        elif command == 'reverse':
+            my_stack.reverse()
