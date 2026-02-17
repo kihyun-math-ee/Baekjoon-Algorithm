@@ -1,13 +1,29 @@
 import sys
+class Matrix:
+    def __init__(self):
+        self.matrix = []
+        self.max_length = 0
 
-Matrix = []
-for _ in range(5):
-    line = sys.stdin.readline().strip()
-    Matrix.append(line)
+    def add_row(self, row):
+        self.matrix.append(list(row))
 
-max_length = max(len(row) for row in Matrix)
+        if len(row) > self.max_length:
+            self.max_length = len(row)
 
-for j in range(max_length):
-    for i in range(5):
-        if j < len(Matrix[i]):
-            print(Matrix[i][j], end="")
+
+    def print_vertical(self):
+        for j in range(self.max_length):
+            for i in range(5):
+                if j < len(self.matrix[i]):
+                    print(self.matrix[i][j], end='')
+
+
+if __name__ == "__main__":
+    my_matrix = Matrix()
+    for _ in range(5):
+        row = sys.stdin.readline().strip()
+        my_matrix.add_row(row)
+
+    my_matrix.print_vertical()
+
+                    
