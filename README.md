@@ -63,3 +63,4 @@ Commit messages must include the problem number and title.
 | 2026-02-18 | Data Structure | 9012 | Implemented Stack class; Solved 'Empty Pop' edge case using Boolean return signals. |
 | 2026-02-19 | Number Theory, String, Class | 25206, 5086, 2501, 9506, 1978 | Implemented GPA Calculator Class; Solved Factor/Multiple logic; Used String Join for Perfect Numbers; Applied Prime Number subtraction logic. |
 | 2026-02-19 | Data Structure | 10773 | Implemented Stack class; Managed LIFO memory operations and optimized I/O using sys.stdin.readline. |
+| 2026-02-20 | String, Class, Math, Prime Numbers | 2941, 2581, 11653 | Refactored string replacement logic using OOP; Implemented boolean flag pattern for control flow; Optimized execution time using while-loop squeezing technique. |
