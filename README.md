@@ -65,3 +65,5 @@ Commit messages must include the problem number and title.
 | 2026-02-19 | Data Structure | 10773 | Implemented Stack class; Managed LIFO memory operations and optimized I/O using sys.stdin.readline. |
 | 2026-02-20 | String, Class, Math, Prime Numbers | 2941, 2581, 11653 | Refactored string replacement logic using OOP; Implemented boolean flag pattern for control flow; Optimized execution time using while-loop squeezing technique. |
 | 2026-02-20 | Data Structure | 2164 | Utilized collections.deque for $O(1)$ front/back operations; Replaced custom class overhead with standard library to prevent Time Limit Exceeded (TLE). |
+| 2026-02-21 | String / OOP    | 1157    | Refactored using OOP architecture; optimized ASCII index mapping and utilized .index() to avoid logic traps. |
+| 2026-02-21 | Geometry / Math | Step 10 | Cleared entire Step 10 (8 problems); Applied independent axis logic, top-to-bottom waterfall control flow, and O(1) Triangle Inequality math to bypass O(N) loops. |
