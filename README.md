@@ -69,3 +69,4 @@ Commit messages must include the problem number and title.
 | 2026-02-21 | Geometry / Math | Step 10 | Cleared entire Step 10 (8 problems); Applied independent axis logic, top-to-bottom waterfall control flow, and O(1) Triangle Inequality math to bypass O(N) loops. |
 | 2026-02-22 | String / OOP    | 1316    | Refactored using a custom class for state management; applied passive safety to prevent index errors and strictly scoped loop completion logic. |
 | 2026-02-22 | Time Complexity / Math | Step 11 | Cleared entire Step 11 (7 problems); Mastered Big-O notation (O(1) to O(N^3)), nested loop execution math (Sigma notation, Combinatorics nC3), and formal asymptotic limit proofs. |
+| 2026-02-23 | OOP / Brute Force / Math | 1152, 2798, 2231, 19532 | Applied OOP for string edge-cases; Implemented O(N^3) nC3 exhaustive search; Optimized brute force using mathematical floor boundaries; Proved O(N^2) search vs O(1) Cramer's Rule matrices. |
