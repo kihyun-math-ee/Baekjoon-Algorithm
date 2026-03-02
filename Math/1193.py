@@ -1,21 +1,24 @@
 import sys
-X = int(sys.stdin.readline())
-N = 0
+import math
 
-while True:
-    try:
-        N += 1
+class Findfraction:
+    def __init__(self):
+        None
 
-    except:
-        if ((N-1)*(N)//2) + 1 <= X <= (N*(N+1))//2:
-            if N % 2 == 0:
-                for i in range(N):
-                    if X - ((N-1)*(N)//2) + 1 == i:
-                        print(f'{i+1}/{2*N-i}')
+    def findfunction(self, N):
+        for i in range(math.floor((math.sqrt(2) * math.sqrt(N)) - 1), math.ceil((math.sqrt(2) * math.sqrt(N)) + 1)):
+            
+            if ((i - 1) * i) // 2 < N <= ((i) * (i + 1)) // 2:
+                pos = N - ((i - 1) * i) // 2
+                
+                if i % 2 == 1:
+                    print(f"{(i - pos) + 1}/{pos}")
+                
+                elif i % 2 == 0:
+                    print(f"{pos}/{(i - pos) + 1}")
 
-            elif N % 2 == 1:
-                for j in range(N):
-                    if X - ((N-1)*(N)//2) + 1 == j:
-                        print(f'{((2*N-1)-j)}/{j+1}')
-        break
 
+if __name__ == "__main__":
+    my_findfraction = Findfraction()
+    X = int(sys.stdin.readline())
+    my_findfraction.findfunction(X)
