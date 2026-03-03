@@ -78,3 +78,4 @@ Commit messages must include the problem number and title.
 | 2026-02-28 | Sorting | 10989, 1427, 1181 | Mastered memory constraints (Counting Sort); Reversed strings; Applied Decorate-Sort-Undecorate matrix for multi-level sorting. |
 | 2026-03-01 | Sorting & OOP | 2675, 10814, 18870 | Refactored string logic to OOP; utilized stable sort with lambda; mastered O(1) dictionary lookups to bypass O(N^2) time limits. |
 | 2026-03-02 | OOP & Sets/Maps | 1193, 7785, 1620 | Refactored sequence logic into OOP with O(1) math optimization; utilized sets to bypass list-shifting TLE; engineered bi-directional dictionaries for instant two-way lookups. |
+| 2026-03-03 | Math & Data Structures (Stack) | 2869, 4949 | Implemented O(1) mathematical calculation inside an OOP class to bypass loop TLE; Engineered a multi-bracket validation system using LIFO stack architecture, patching empty-stack crashes and object memory states. |
