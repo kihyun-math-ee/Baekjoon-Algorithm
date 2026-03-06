@@ -1,23 +1,28 @@
 import sys
-while True:
-    n = int(sys.stdin.readline())
-    if n == -1:
-        break
-    L = []
-    total = 0
 
-    for i in range(1, n):
-        if n % i == 0:
-            L.append(i)
+class Perfect_Num:
+    
+    def check_perfect(self, target):
+        self.factor_list = []
+              
+        for i in range(1, target):
+            if target % i == 0:
+                self.factor_list.append(i)
+                
+        if sum(self.factor_list) == target:
+            formula = " + ".join(map(str, self.factor_list))
+            print(f"{target} = {formula}")
+        else:
+            print(f"{target} is NOT perfect.")
 
-    for j in range(len(L)):
-        total += L[j]
-
-    if n == total:
-        formula = " + ".join(str(x) for x in L)
-        print(f"{n} = {formula}")
-
-    elif n != total:
-        print(f"{n} is NOT perfect.")
+if __name__ == "__main__":
+    my_perfect_num = Perfect_Num()
+    
+    while True:
+        n = int(sys.stdin.readline())
+        if n == -1:
+            break
+        
+        my_perfect_num.check_perfect(n)
 
     
