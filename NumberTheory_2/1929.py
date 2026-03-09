@@ -1,20 +1,28 @@
 import sys
 import math
 
-def is_prime(n):
-    limit = int(math.sqrt(n))
+class All_Prime:
+    def __init__(self):
+        pass
 
-    if n < 2:
-        return False
-    
-    else:
+    def is_prime(self, num):
+        if num < 2:
+            return False
+        
+        limit = int(math.sqrt(num))
         for i in range(2, limit + 1):
-            if n % i == 0:
+            if num % i == 0:
                 return False
-            
+                
         return True
     
-M, N = map(int, sys.stdin.readline().split())
-for num in range(M, N + 1):
-    if is_prime(num):
-        print(num)
+if __name__ == '__main__':
+    my_all_prime = All_Prime()
+    M, N = map(int, sys.stdin.readline().split())
+    results = []
+
+    for j in range(M, N + 1):
+        if my_all_prime.is_prime(j):
+            results.append(str(j))
+
+    print('\n'.join(results))
