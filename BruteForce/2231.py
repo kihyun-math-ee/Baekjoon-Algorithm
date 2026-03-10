@@ -1,35 +1,49 @@
 import sys
 
-# BOJ 2231: Decomposition (Brute Force / Exhaustive Search)
-# Time Complexity: Optimized from O(N) to near O(1) using mathematical bounds.
+# BOJ 3986: Good Words (Stack Data Structure / String Manipulation)
+# Time Complexity: O(N * L) where N is the number of words and L is the length of the string.
 #
 # Engineering Notes:
-# 1. Base logic utilizes Exhaustive Search to find the smallest generator.
-# 2. Mathematical Optimization: A generator M can never be smaller than N - (number of digits * 9).
-#    By starting the search at this calculated floor, we bypass hundreds of thousands
-#    of unnecessary iterations, drastically dropping the execution time.
-# 3. Utilized Python's `sum(map(int, str(i)))` for rapid integer-to-digit summation.
-# 4. Implemented Python's native `for-else` structure to cleanly handle the 
-#    "no generator found" edge case (printing 0) without needing infinity flags.
+# 1. Utilizes a Stack (LIFO Data Structure) to pair matching consecutive letters.
+# 2. Employs "Explosion Logic": If an incoming letter matches the top of the stack, 
+#    they form a non-crossing connection and cancel out (pop).
+# 3. Critical State Management: The stack MUST be explicitly re-initialized (Stack = []) 
+#    at the start of every loop iteration to prevent "State Leaks" (garbage data carrying over).
 
-N_str = sys.stdin.readline().strip()
-N = int(N_str)
+N = int(sys.stdin.readline())
+good_word_cnt = 0
 
-# Calculate the mathematical floor for the brute force search
-# (e.g., if N=216, max digit sum is 9+9+9=27. We only need to search from 216-27 = 189)
-start_point = max(1, N - (len(N_str) * 9))
-
-for i in range(start_point, N):
-    # Calculate decomposition sum: the number itself + the sum of its digits
-    decomposition_sum = i + sum(map(int, str(i)))
+for _ in range(N):
+    # Read the word and strip the hidden newline character
+    S = sys.stdin.readline().strip()
     
-    # The first match is mathematically guaranteed to be the minimum
-    if decomposition_sum == N:
-        print(i)
-        break
-else:
-    # This block executes ONLY if the loop finishes without hitting the 'break'
-    print(0)
+    # Re-initialize an empty stack for EVERY new word to prevent State Leaks
+    Stack = [] 
+    
+    for i in range(len(S)):
+        
+        # Condition 1: If the stack is completely empty, we must push the current letter.
+        if not Stack:
+            Stack.append(S[i])
+        
+        else:
+            # Condition 2: EXPLOSION LOGIC
+            # If the incoming letter perfectly matches the top of the stack,
+            # they form a valid pair and are removed from the stack.
+            if S[i] == Stack[-1]:
+                Stack.pop()
+            
+            # Condition 3: If they do not match, the new letter is added to the top.
+            else:
+                Stack.append(S[i])
+
+    # At the end of the word iteration, if the stack is completely empty, 
+    # every single letter successfully found a pair without crossing lines.
+    if not Stack:
+        good_word_cnt += 1
+
+# Print the final count of validated Good Words
+print(good_word_cnt)
 
 
 
