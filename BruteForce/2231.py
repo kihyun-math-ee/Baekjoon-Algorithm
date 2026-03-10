@@ -1,49 +1,58 @@
 import sys
 
-# BOJ 3986: Good Words (Stack Data Structure / String Manipulation)
-# Time Complexity: O(N * L) where N is the number of words and L is the length of the string.
-#
+# BOJ 2231: Decomposition Sum (OOP Architecture / Brute Force)
+# Time Complexity: O(1) mathematically bounded near-constant time.
+# 
 # Engineering Notes:
-# 1. Utilizes a Stack (LIFO Data Structure) to pair matching consecutive letters.
-# 2. Employs "Explosion Logic": If an incoming letter matches the top of the stack, 
-#    they form a non-crossing connection and cancel out (pop).
-# 3. Critical State Management: The stack MUST be explicitly re-initialized (Stack = []) 
-#    at the start of every loop iteration to prevent "State Leaks" (garbage data carrying over).
+# 1. Encapsulated the brute-force search algorithm inside an Object-Oriented class structure.
+# 2. Mathematical Optimization: Utilizes the universal lower bound of `target - (9 * length)` 
+#    to start the search. This prevents mathematical edge-case skipping while bypassing 
+#    hundreds of thousands of unnecessary iterations.
+# 3. State Management: Employs a boolean flag (`self.sum_exist`) to cleanly handle 
+#    the failure state if no valid constructor is found.
 
-N = int(sys.stdin.readline())
-good_word_cnt = 0
+class Decomposition_Sum:
+    def __init__(self):
+        # Initialize state variables
+        self.decomposition_sum = 0
 
-for _ in range(N):
-    # Read the word and strip the hidden newline character
-    S = sys.stdin.readline().strip()
-    
-    # Re-initialize an empty stack for EVERY new word to prevent State Leaks
-    Stack = [] 
-    
-    for i in range(len(S)):
+    def components_itself(self, target):
+        # Calculate the optimal mathematical floor to prevent unnecessary loops
+        # We use max(1, ...) to ensure we never check negative numbers
+        self.itself = max(1, target - (9 * len(str(target))))
         
-        # Condition 1: If the stack is completely empty, we must push the current letter.
-        if not Stack:
-            Stack.append(S[i])
+        # Flag to track if a valid constructor is found
+        self.sum_exist = False
         
-        else:
-            # Condition 2: EXPLOSION LOGIC
-            # If the incoming letter perfectly matches the top of the stack,
-            # they form a valid pair and are removed from the stack.
-            if S[i] == Stack[-1]:
-                Stack.pop()
+        # Search upwards from the lower bound directly to the target
+        while target >= self.itself:
+            self.all_decomposition = 0
             
-            # Condition 3: If they do not match, the new letter is added to the top.
+            # Sum the individual digits of the current number
+            for i in range(len(str(self.itself))):
+                self.all_decomposition += int(str(self.itself)[i])
+            
+            # Check if the number + its digit sum equals the target
+            if target != self.all_decomposition + self.itself:
+                self.itself += 1
+            
             else:
-                Stack.append(S[i])
+                # The first match is mathematically guaranteed to be the minimum
+                self.sum_exist = True
+                print(self.itself)
+                sys.exit(0)
 
-    # At the end of the word iteration, if the stack is completely empty, 
-    # every single letter successfully found a pair without crossing lines.
-    if not Stack:
-        good_word_cnt += 1
+        # If the loop exhausts all possibilities without finding a match
+        if self.sum_exist == False:
+            print(0)
 
-# Print the final count of validated Good Words
-print(good_word_cnt)
+if __name__ =='__main__':
+    # 1. Instantiate the generator object
+    my_decomposition_sum = Decomposition_Sum()
+    
+    # 2. Read input and execute the bounded exhaustive search
+    N = int(sys.stdin.readline())
+    my_decomposition_sum.components_itself(N)
 
 
 
