@@ -87,3 +87,4 @@ Commit messages must include the problem number and title.
 | 2026-03-09 | OOP & Number Theory | 1929 | Refactored O(√N) primality testing into an OOP class; engineered fast I/O string conversions utilizing the .join() method to bypass console printing bottlenecks and prevent TLE. |
 | 2026-03-10 | OOP & Data Structures (Stack) | 2231, 3986 | Refactored brute-force algorithms into OOP utilizing strict mathematical lower bounds; engineered LIFO stack architectures to process non-crossing state cancellations. |
 | 2026-03-11 | Number Theory | 13909 | Diagnosed a simulation memory limit and optimized the algorithm into an O(1) mathematical perfect square formula. |
+| 2026-03-12 | Number Theory & Data Structures (Stack) | 17103, 28278, 1021 | Engineered the Sieve of Eratosthenes with boolean arrays for O(1) prime validation; built OOP stack and deque architectures handling variable-length I/O parsing. |
