@@ -1,12 +1,22 @@
 import sys
 
-num_list = []
-N = int(sys.stdin.readline())
+class Ascending_Sort:
+    def __init__(self):
+        self.num_set = set()
 
-for _ in range(N):
-    num = int(sys.stdin.readline())
-    num_list.append(num)
-sorted_num_list = sorted(num_list)
+    def Add_Machine(self, number):
+        self.num_set.add(number)
 
-for i in range(N):
-    print(sorted_num_list[i])
+    def Sort_Machine(self):
+        self.ascending_order_set = sorted(self.num_set)
+        print(*self.ascending_order_set, sep = '\n')
+
+
+if __name__=='__main__':
+    my_ascending_sort = Ascending_Sort()
+    N = int(sys.stdin.readline())
+    for _ in range(N):
+        target = int(sys.stdin.readline())
+        my_ascending_sort.Add_Machine(target)
+
+    my_ascending_sort.Sort_Machine()
