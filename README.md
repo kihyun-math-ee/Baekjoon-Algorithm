@@ -88,3 +88,4 @@ Commit messages must include the problem number and title.
 | 2026-03-10 | OOP & Data Structures (Stack) | 2231, 3986 | Refactored brute-force algorithms into OOP utilizing strict mathematical lower bounds; engineered LIFO stack architectures to process non-crossing state cancellations. |
 | 2026-03-11 | Number Theory | 13909 | Diagnosed a simulation memory limit and optimized the algorithm into an O(1) mathematical perfect square formula. |
 | 2026-03-12 | Number Theory & Data Structures | 17103, 28278, 1021 | Engineered the Sieve of Eratosthenes with boolean arrays for O(1) prime validation; built OOP stack and deque architectures handling variable-length I/O parsing. |
+| 2026-03-13 | OOP & Data Structures (Stack) | 2750, 12789 | Built an OOP sorting architecture utilizing list unpacking optimizations; engineered a strict 4-rule State Machine using an O(1) reversed array and a LIFO stack to simulate physical line management. |
