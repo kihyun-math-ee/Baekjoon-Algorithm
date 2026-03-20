@@ -94,3 +94,4 @@ Commit messages must include the problem number and title.
 | 2026-03-17 | Data Structures (Advanced Deques) | 2346, 24511 | Engineered complex circular rotation logic for balloons; bypassed O(N*M) time limit by ignoring Stacks and filtering Queues using `zip()` and list comprehension. |
 | 2026-03-18 | Combinatorics | 10872, 1010 | Implemented fundamental Factorial logic with edge-case handling; engineered an optimized O(N) Binomial Coefficient algorithm bypassing memory constraints. |
 | 2026-03-19 | Sets/Maps | 10815, 14425 | Implemented O(1) hash set lookups to bypass O(N*M) time limits for massive string and integer queries. |
+| 2026-03-20 | Number Theory | 1934, 4948 | Implemented prime factorization dictionaries for LCM and O(1) hash set precomputation for rapid prime counting. |
