@@ -95,3 +95,4 @@ Commit messages must include the problem number and title.
 | 2026-03-18 | Combinatorics | 10872, 1010 | Implemented fundamental Factorial logic with edge-case handling; engineered an optimized O(N) Binomial Coefficient algorithm bypassing memory constraints. |
 | 2026-03-19 | Sets/Maps | 10815, 14425 | Implemented O(1) hash set lookups to bypass O(N*M) time limits for massive string and integer queries. |
 | 2026-03-20 | Number Theory | 1934, 4948 | Implemented prime factorization dictionaries for LCM and O(1) hash set precomputation for rapid prime counting. |
+| 2026-03-22 | Number Theory & Combinatorics | 13241, 11050 | Implemented the Euclidean algorithm for optimal GCD and LCM integer calculations; engineered recursive factorial logic to resolve fundamental binomial coefficient queries. |
