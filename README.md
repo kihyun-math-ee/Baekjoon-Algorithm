@@ -98,3 +98,4 @@ Commit messages must include the problem number and title.
 | 2026-03-22 | Number Theory & Combinatorics | 13241, 11050 | Implemented the Euclidean algorithm for optimal GCD and LCM integer calculations; engineered recursive factorial logic to resolve fundamental binomial coefficient queries. |
 | 2026-03-24 | Combinatorics | 15439, 24723 | Applied the rule of product to solve distinct pairing combinations; utilized base-2 exponential logic to calculate binary path possibilities. |
 | 2026-03-25 | Math & Statistics | 1037, 2108 | Implemented a divisor-based number derivation algorithm by multiplying min/max factors; engineered a statistical calculator for mean, median, mode (with frequency dictionary), and range. |
+| 2026-03-26 | Hash & Sorting | 20920, 25192 | Engineered a multi-level sorting logic using lambda and dictionary frequency; implemented an efficient unique entry counter using hash sets with state-reset conditions. |
