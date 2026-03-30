@@ -101,3 +101,4 @@ Commit messages must include the problem number and title.
 | 2026-03-26 | Hash & Sorting | 20920, 25192 | Engineered a multi-level sorting logic using lambda and dictionary frequency; implemented an efficient unique entry counter using hash sets with state-reset conditions. |
 | 2026-03-27 | Hash Set & Recursion | 26069, 2447 | Implemented a viral state tracking system using hash sets; engineered a 2D fractal star pattern using recursive divide-and-conquer logic. |
 | 2026-03-28 | Recursion | 4779, 10870 | Implemented the Cantor set using a recursive divide-and-conquer approach to manipulate array segments; solved the classic Fibonacci sequence using base recursive logic. |
+| 2026-03-30 | Recursion | 11729, 24060 | Implemented the classic Tower of Hanoi algorithm to practice tracking recursive moves; applied divide-and-conquer logic to implement Merge Sort and track specific element states during the merge process. |
