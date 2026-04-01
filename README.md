@@ -103,3 +103,4 @@ Commit messages must include the problem number and title.
 | 2026-03-28 | Recursion | 4779, 10870 | Implemented the Cantor set using a recursive divide-and-conquer approach to manipulate array segments; solved the classic Fibonacci sequence using base recursive logic. |
 | 2026-03-30 | Recursion | 11729, 24060 | Implemented the classic Tower of Hanoi algorithm to practice tracking recursive moves; applied divide-and-conquer logic to implement Merge Sort and track specific element states during the merge process. |
 | 2026-03-31 | Recursion | 25501, 27433 | Practiced basic recursion concepts by implementing a factorial function and a palindrome checker that tracks the number of recursive calls. |
+| 2026-04-01 | Backtracking | 15649, 15650 | Reviewed fundamental backtracking patterns by implementing permutation and combination sequences. |
