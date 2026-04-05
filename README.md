@@ -107,3 +107,4 @@ Commit messages must include the problem number and title.
 | 2026-04-02 | Backtracking | 15651, 15652 | Practiced backtracking by implementing repeated permutations and repeated combinations. |
 | 2026-04-03 | Backtracking | 9663, 14888 | Deepened understanding of backtracking by implementing the N-Queen problem and an operator placement algorithm with complex conditional branching. |
 | 2026-04-04 | Greedy | 11047, 16435 | Practiced greedy algorithms by implementing the coin change problem and simulating the snakebird's growth with sorting. |
+| 2026-04-05 | Number Theory | 14490, 2609 | Solved ratio simplification and LCM/GCD problems using the math library's gcd and lcm functions. |
