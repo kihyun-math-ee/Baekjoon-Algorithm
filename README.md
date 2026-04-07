@@ -108,3 +108,4 @@ Commit messages must include the problem number and title.
 | 2026-04-03 | Backtracking | 9663, 14888 | Deepened understanding of backtracking by implementing the N-Queen problem and an operator placement algorithm with complex conditional branching. |
 | 2026-04-04 | Greedy | 11047, 16435 | Practiced greedy algorithms by implementing the coin change problem and simulating the snakebird's growth with sorting. |
 | 2026-04-05 | Number Theory | 14490, 2609 | Solved ratio simplification and LCM/GCD problems using the math library's gcd and lcm functions. |
+| 2026-04-07 | Set_Map, Strings | 1302, 1543 | Implemented frequency counting via hash map and multi-condition sorting for optimal string retrieval; utilized built-in string method for non-overlapping substring matching. |
