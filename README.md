@@ -109,3 +109,4 @@ Commit messages must include the problem number and title.
 | 2026-04-04 | Greedy | 11047, 16435 | Practiced greedy algorithms by implementing the coin change problem and simulating the snakebird's growth with sorting. |
 | 2026-04-05 | Number Theory | 14490, 2609 | Solved ratio simplification and LCM/GCD problems using the math library's gcd and lcm functions. |
 | 2026-04-07 | Set_Map, Strings | 1302, 1543 | Implemented frequency counting via hash map and multi-condition sorting for optimal string retrieval; utilized built-in string method for non-overlapping substring matching. |
+| 2026-04-12 | Combinatorics, Geometry_1 | 11051, 4153 | Calculated binomial coefficients mathematically leveraging large integer support instead of DP; evaluated right triangles via the Pythagorean theorem and reinforced Python's logical 'and' vs bitwise '&' distinction. |
