@@ -112,3 +112,4 @@ Commit messages must include the problem number and title.
 | 2026-04-12 | Combinatorics, Geometry_1 | 11051, 4153 | Calculated binomial coefficients mathematically leveraging large integer support instead of DP; evaluated right triangles via the Pythagorean theorem and reinforced Python's logical 'and' vs bitwise '&' distinction. |
 | 2026-04-13 | Strings | 11656, 11721 | Implemented suffix extraction and lexicographical sorting using sets; utilized string slicing to output characters in fixed-size chunks. |
 | 2026-04-14 | Set_Map, Combinatorics | 11723, 11726 | Implemented a class-based set calculator for handling dynamic element operations; solved the 2xn tiling problem by applying mathematical combinations based on tile orientations. |
+| 2026-04-15 | Greedy | 1439 | Solved string flipping by counting contiguous blocks of 0s and 1s, optimizing edge cases using chunk-start detection. |
