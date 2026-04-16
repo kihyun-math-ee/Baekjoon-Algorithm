@@ -113,3 +113,4 @@ Commit messages must include the problem number and title.
 | 2026-04-13 | Strings | 11656, 11721 | Implemented suffix extraction and lexicographical sorting using sets; utilized string slicing to output characters in fixed-size chunks. |
 | 2026-04-14 | Set_Map, Combinatorics | 11723, 11726 | Implemented a class-based set calculator for handling dynamic element operations; solved the 2xn tiling problem by applying mathematical combinations based on tile orientations. |
 | 2026-04-15 | Greedy | 1439 | Solved string flipping by counting contiguous blocks of 0s and 1s, optimizing edge cases using chunk-start detection. |
+| 2026-04-16 | Greedy, Sorting | 11399 | Solved ATM scheduling by sorting wait times in ascending order and calculating prefix sums to minimize cumulative delay. |
