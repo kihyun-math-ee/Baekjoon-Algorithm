@@ -115,3 +115,4 @@ Commit messages must include the problem number and title.
 | 2026-04-15 | Greedy | 1439 | Solved string flipping by counting contiguous blocks of 0s and 1s, optimizing edge cases using chunk-start detection. |
 | 2026-04-16 | Greedy | 11399 | Solved ATM scheduling by sorting wait times in ascending order and calculating prefix sums to minimize cumulative delay. |
 | 2026-04-17 | Greedy | 1541 | Minimized mathematical expression results by parsing operators and greedily subtracting all values following the first minus sign. |
+| 2026-04-18 | Sorting | 11728 | Merged two pre-sorted arrays utilizing Python list concatenation and optimized the output process using the unpacking operator (`*`). |
