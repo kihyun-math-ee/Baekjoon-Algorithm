@@ -116,3 +116,4 @@ Commit messages must include the problem number and title.
 | 2026-04-16 | Greedy | 11399 | Solved ATM scheduling by sorting wait times in ascending order and calculating prefix sums to minimize cumulative delay. |
 | 2026-04-17 | Greedy | 1541 | Minimized mathematical expression results by parsing operators and greedily subtracting all values following the first minus sign. |
 | 2026-04-18 | Sorting | 11728 | Merged two pre-sorted arrays utilizing Python list concatenation and optimized the output process using the unpacking operator (`*`). |
+| 2026-04-19 | Math | 21920 | Calculated the average of elements coprime to a target value using Python's math.gcd and floating-point division, optimizing memory without auxiliary lists. |
