@@ -121,3 +121,4 @@ Commit messages must include the problem number and title.
 | 2026-04-21 | Math | 14929 | Optimized the sum of pairs products from O(N^2) to O(N) utilizing distributive property and prefix sums. |
 | 2026-04-22 | Strings | 1676 | Reviewed recursion to calculate factorial and parsed the resulting string from the end to count trailing zeros. |
 | 2026-04-23 | Math | 1312 | Found the N-th decimal digit of a fraction by simulating long division, completely bypassing float precision limits. |
+| 2026-04-24 | OOP & Strings | 9093 | Designed an OOP structure with two pointers to reverse each word in a sentence, resolving infinite loop and state initialization issues. |
