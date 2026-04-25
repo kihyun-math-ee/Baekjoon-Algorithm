@@ -123,3 +123,4 @@ Commit messages must include the problem number and title.
 | 2026-04-23 | Math | 1312 | Found the N-th decimal digit of a fraction by simulating long division, completely bypassing float precision limits. |
 | 2026-04-24 | OOP & Strings | 9093 | Designed an OOP structure with two pointers to reverse each word in a sentence, resolving infinite loop and state initialization issues. |
 | 2026-04-25 | loops | 2442 | Printed a centered star pyramid using for loops, ensuring no trailing spaces are added to avoid presentation errors. |
+| 2026-04-26 | Sorting | 2693 | Found the 3rd largest element in arrays by applying Python's built-in sort and negative indexing. |
