@@ -125,3 +125,4 @@ Commit messages must include the problem number and title.
 | 2026-04-25 | loops | 2442 | Printed a centered star pyramid using for loops, ensuring no trailing spaces are added to avoid presentation errors. |
 | 2026-04-26 | Sorting | 2693 | Found the 3rd largest element in arrays by applying Python's built-in sort and negative indexing. |
 | 2026-04-27 | Brute_Force | 14912 | Calculated the frequency of a specific digit within a range of numbers using string conversion and the built-in count function. |
+| 2026-04-28 | Etc | 35515 | [Event] Submitted the final memorial problem "Good Bye, BOJ!" on the day of the site's closure. |
