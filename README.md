@@ -127,3 +127,4 @@ Commit messages must include the problem number and title.
 | 2026-04-27 | Brute_Force | 14912 | Calculated the frequency of a specific digit within a range of numbers using string conversion and the built-in count function. |
 | 2026-04-28 | Etc | 35515 | [Event] Submitted the final memorial problem "Good Bye, BOJ!" on the day of the site's closure. |
 | 2026-04-29 | Data_Structures | 15828 | Simulated a fixed-size network router buffer using a deque to handle incoming packets and process them in FIFO order. |
+| 2026-04-30 | Combinatorics | 1359 | Calculated the exact probability by correctly mapping the target state space and utilizing C-optimized built-in combination functions. |
