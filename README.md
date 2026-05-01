@@ -128,3 +128,4 @@ Commit messages must include the problem number and title.
 | 2026-04-28 | Etc | 35515 | [Event] Submitted the final memorial problem "Good Bye, BOJ!" on the day of the site's closure. |
 | 2026-04-29 | Data_Structures | 15828 | Simulated a fixed-size network router buffer using a deque to handle incoming packets and process them in FIFO order. |
 | 2026-04-30 | Combinatorics | 1359 | Calculated the exact probability by correctly mapping the target state space and utilizing C-optimized built-in combination functions. |
+| 2026-05-01 | Arrays | 11659 | Optimized range sum queries from O(N^2) to O(N+M) by precomputing a prefix sum array and caching cumulative values. |
