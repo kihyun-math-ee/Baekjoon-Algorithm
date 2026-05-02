@@ -129,3 +129,4 @@ Commit messages must include the problem number and title.
 | 2026-04-29 | Data_Structures | 15828 | Simulated a fixed-size network router buffer using a deque to handle incoming packets and process them in FIFO order. |
 | 2026-04-30 | Combinatorics | 1359 | Calculated the exact probability by correctly mapping the target state space and utilizing C-optimized built-in combination functions. |
 | 2026-05-01 | Arrays | 11659 | Optimized range sum queries from O(N^2) to O(N+M) by precomputing a prefix sum array and caching cumulative values. |
+| 2026-05-02 | Geometry | 1064 | Implemented CCW (cross product) to check collinearity and avoided dimension mismatch. Calculated perimeter differences using Euclidean distance in O(1) time. |
