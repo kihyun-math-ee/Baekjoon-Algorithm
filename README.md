@@ -136,3 +136,4 @@ Commit messages must include the problem number and title.
 | 2026-05-06 | Combinatorics | 3049 | Abstracted geometric intersections into a selection problem and achieved O(1) time complexity by utilizing CPython's internally optimized math.comb. |
 | 2026-05-08 | Greedy | 3213 | Solved minimum pizza calculation by greedily pairing 3/4 and 1/4 slices, merging 1/2 slices, and handling remainders via ceiling math. |
 | 2026-05-09 | Geometry | 1569 | Solved minimum bounding square problem by calculating extreme coordinates to fix the side length, and validating boundary conditions using a modular helper function. |
+| 2026-05-10 | Greedy | 1789 | Solved maximum distinct addends problem by consecutively summing natural numbers and handling bounds. |
