@@ -138,3 +138,4 @@ Commit messages must include the problem number and title.
 | 2026-05-09 | Geometry | 1569 | Solved minimum bounding square problem by calculating extreme coordinates to fix the side length, and validating boundary conditions using a modular helper function. |
 | 2026-05-10 | Greedy | 1789 | Solved maximum distinct addends problem by consecutively summing natural numbers and handling bounds. |
 | 2026-05-11 | Implementation | 2331 | Solved repeating sequence problem by storing elements in a list and tracking the index of the first cycle occurrence to slice the non-repeating prefix. |
+| 2026-05-12 | Greedy | 2057 | Solved factorial sum problem by precomputing factorials up to 20! and greedily subtracting them using custom pointer logic. |
