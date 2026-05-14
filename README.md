@@ -141,3 +141,4 @@ Commit messages must include the problem number and title.
 | 2026-05-12 | Greedy | 2057 | Solved factorial sum problem by precomputing factorials up to 20! and greedily subtracting them using custom pointer logic. |
 | 2026-05-13 | Implementation | 2669 | Solved area of union of rectangles by simulating a 2D coordinate grid and marking covered 1x1 squares to naturally handle overlaps. |
 | 2026-05-14 | Greedy | 1417 | Solved election winning problem by separating the target's votes and greedily decrementing the maximum votes among other candidates. Handled edge case efficiently. |
+| 2026-05-15 | Data_Structure | 1935 | Solved postfix expression evaluation by implementing a stack (LIFO), handling operand ordering with a temporary list, and formatting float outputs. |
