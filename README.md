@@ -146,3 +146,4 @@ Commit messages must include the problem number and title.
 | 2026-05-17 | Implementation | 3230 | Simulated a two-stage race ranking system by leveraging the list.insert() method to dynamically position elements based on inputted ranks. |
 | 2026-05-20 | Math | 5043 | Solved prefix-free capacity limit by calculating the geometric series sum of 2^i up to max bit length b. |
 | 2026-05-21 | Math, String | 5043, 5555 | Optimized prefix-free capacity calculation to O(1) using bitwise shift; implemented circular string search by concatenating the string to itself and reinforced the necessity of `.strip()` for newline removal. |
+| 2026-05-22 | Geometry | 4771 | Classified triangles using vector inner products and implemented a custom tolerance function to handle floating-point precision errors. |
