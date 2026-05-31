@@ -155,3 +155,4 @@ Commit messages must include the problem number and title.
 | 2026-05-29 | Implementation | 9733 | Processed multi-line EOF input using sys.stdin.read().split() and calculated task frequencies. (Note: Aware of Python's Banker's Rounding and the potential need for epsilon adjustment in strict grading environments). |
 | 2026-05-30 | Sorting | 13411 | Calculated distance and time for each robot, and handled simultaneous destruction cases by utilizing Python's built-in tuple sorting (Time, Index). |
 | 2026-05-31 | Math | 2097 | Optimized minimum perimeter calculation by dividing the required area into 3 boundary cases based on the square root (k^2, k*(k+1), (k+1)^2). |
+| 2026-06-01 | Sorting | 2628 | Calculated the maximum area of cut paper by sorting the cut coordinates (including boundaries 0 and max length) in descending order and finding the maximum difference between adjacent points. |
