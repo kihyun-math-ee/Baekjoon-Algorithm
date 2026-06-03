@@ -158,3 +158,4 @@ Commit messages must include the problem number and title.
 | 2026-06-01 | Sorting | 2628 | Calculated the maximum area of cut paper by sorting the cut coordinates (including boundaries 0 and max length) in descending order and finding the maximum difference between adjacent points. |
 | 2026-06-02 | Simulation | 3018 | Simulated knowledge sharing among participants using Set operations. Handled two conditional branches: broadcasting a new song when the key person (1) is present, and unionizing all known songs among participants when absent. |
 | 2026-06-03 | Brute-force | 9417 | Calculated the maximum GCD among all possible pairs in a sequence using an O(N^2) exhaustive search combined with the built-in math.gcd function. |
+| 2026-06-04 | Implementation | 5426 | Decrypted a square-encrypted secret message by calculating the matrix dimension via square root and extracting characters using step-based string slicing to reverse the rotation. |
