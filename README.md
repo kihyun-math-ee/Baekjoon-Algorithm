@@ -160,3 +160,4 @@ Commit messages must include the problem number and title.
 | 2026-06-03 | Brute-force | 9417 | Calculated the maximum GCD among all possible pairs in a sequence using an O(N^2) exhaustive search combined with the built-in math.gcd function. |
 | 2026-06-04 | Implementation | 5426 | Decrypted a square-encrypted secret message by calculating the matrix dimension via square root and extracting characters using step-based string slicing to reverse the rotation. |
 | 2026-06-05 | Sorting | 2535 | Selected top 3 medalists by sorting scores in descending order and implemented a conditional filter to ensure no more than two medals are awarded to the same country. |
+| 2026-06-06 | Brute-force | 1051 | Calculated the maximum area of a square with identical corner values using a 3D nested loop and dynamic boundary checks to prevent index out of range errors. |
