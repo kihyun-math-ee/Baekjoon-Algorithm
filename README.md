@@ -165,3 +165,4 @@ Commit messages must include the problem number and title.
 | 2026-06-08 | Recursion | 1629 | Implemented a recursive divide and conquer algorithm to efficiently calculate modular exponentiation in O(log N) time. |
 | 2026-06-09 | Strings | 1652 | Calculated horizontal and vertical resting spots by extracting rows and columns as strings, then elegantly dividing consecutive empty spaces using the split('X') method. |
 | 2026-06-10 | BruteForce | 2303 | Solved the card game problem by implementing a 3-depth nested loop to find combinations without duplication, and utilized descending tuple sorting to effectively handle tie-breaker conditions. |
+| 2026-06-11 | Greedy | 3135 | Solved the radio frequency problem by comparing the direct movement distance with the jumps from given bookmark frequencies (+1 for the initial button press), storing them in a list to extract the minimum value. |
