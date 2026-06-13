@@ -168,3 +168,4 @@ Commit messages must include the problem number and title.
 | 2026-06-11 | Greedy | 3135 | Solved the radio frequency problem by comparing the direct movement distance with the jumps from given bookmark frequencies (+1 for the initial button press), storing them in a list to extract the minimum value. |
 | 2026-06-12 | Math | 1716 | Implemented a highly optimized O(N) polynomial remainder calculation by leveraging the cyclic nature of x^k = -1, combined with robust formatting for zero coefficients. |
 | 2026-06-13 | Math | 2622 | Solved the triangle construction problem in O(N) time by iterating through the longest side and mathematically calculating the valid range for the second longest side. |
+| 2026-06-14 | Math | 6986 | Computed the trimmed and adjusted means after sorting the scores, successfully mitigating Python's default round-to-even behavior by adding a tiny epsilon (1e-8) before formatting to two decimal places. |
