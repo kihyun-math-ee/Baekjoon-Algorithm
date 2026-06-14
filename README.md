@@ -169,3 +169,4 @@ Commit messages must include the problem number and title.
 | 2026-06-12 | Math | 1716 | Implemented a highly optimized O(N) polynomial remainder calculation by leveraging the cyclic nature of x^k = -1, combined with robust formatting for zero coefficients. |
 | 2026-06-13 | Math | 2622 | Solved the triangle construction problem in O(N) time by iterating through the longest side and mathematically calculating the valid range for the second longest side. |
 | 2026-06-14 | Math | 6986 | Computed the trimmed and adjusted means after sorting the scores, successfully mitigating Python's default round-to-even behavior by adding a tiny epsilon (1e-8) before formatting to two decimal places. |
+| 2026-06-15 | Combinatorics | 10972 | Implemented the next permutation algorithm by traversing from the end to find the proper swap point, exchanging elements, and sorting the remaining suffix to ensure the correct lexicographical order. |
