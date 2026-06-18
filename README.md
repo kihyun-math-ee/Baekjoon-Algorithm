@@ -172,3 +172,4 @@ Commit messages must include the problem number and title.
 | 2026-06-15 | Combinatorics | 10972 | Implemented the next permutation algorithm by traversing from the end to find the proper swap point, exchanging elements, and sorting the remaining suffix to ensure the correct lexicographical order. |
 | 2026-06-16 | Set_Map | 17219 | Implemented a hash map (dictionary) to efficiently store and retrieve site passwords in O(1) time complexity per query, utilizing fast I/O for optimal performance. |
 | 2026-06-17 | Data Structure | 33848 | Implemented a persistent stack capable of reverting state changes (undo). Managed push and pop histories using an auxiliary log and a temporary stack to restore elements efficiently. |
+| 2026-06-18 | Data_Structure | 34944 | Implemented a stack-based bracket validator and applied a brute-force approach to determine if substituting exactly one bracket resolves an invalid sequence. Annotated time complexity O(N * L^2). |
