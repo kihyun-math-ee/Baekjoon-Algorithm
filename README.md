@@ -179,3 +179,4 @@ Commit messages must include the problem number and title.
 | 2026-06-22 | Implementation | 1235 | Implemented an algorithm to determine the minimum suffix length required for unique identification by iteratively comparing negative string slices (`[-k:]`). |
 | 2026-06-23 | Greedy | 1246 | Maximized profit by sorting the target prices and calculating the potential revenue at each price point while considering the maximum inventory limit. |
 | 2026-06-24 | Recursion | 7113 | Calculated the number of squares cut from a rectangle by accumulating return values (1 + recursion) without using global variables. Fully internalized the concepts of Call Stack unwinding and value substitution in pure recursion. |
+| 2026-06-25 | Math | 1459 | Calculated the minimum cost to reach a destination coordinate by comparing three movement strategies: purely orthogonal moves, a mix of diagonal and orthogonal moves, and zigzag diagonal moves (handling even/odd coordinate sums). |
