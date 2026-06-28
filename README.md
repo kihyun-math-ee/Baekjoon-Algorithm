@@ -183,3 +183,4 @@ Commit messages must include the problem number and title.
 | 2026-06-26 | Implementation | 13015 | Implemented an X-shaped star pattern by dividing the structure into 5 symmetric sections. Calculated dynamic inner and outer spaces using string operations, optimizing without 2D arrays or recursion. |
 | 2026-06-27 | Backtracking | 1182 | Implemented combination-based backtracking to track subsequence sums. Mastered the continuous recursive exploration and proper pop timing without premature returns. |
 | 2026-06-28 | Backtracking | 15654 | Implemented permutation-based backtracking using an explicitly given array. Satisfied the lexicographical order condition by sorting the input array prior to the recursive exploration. |
+| 2026-06-29 | Backtracking | 1759 | Optimized the backtracking algorithm by tracking vowel and consonant counts in real-time during recursive calls, ensuring zero overhead at the base case evaluation. |
