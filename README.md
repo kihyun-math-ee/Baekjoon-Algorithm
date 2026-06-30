@@ -185,3 +185,4 @@ Commit messages must include the problem number and title.
 | 2026-06-28 | Backtracking | 15654 | Implemented permutation-based backtracking using an explicitly given array. Satisfied the lexicographical order condition by sorting the input array prior to the recursive exploration. |
 | 2026-06-29 | Backtracking | 1759 | Optimized the backtracking algorithm by tracking vowel and consonant counts in real-time during recursive calls, ensuring zero overhead at the base case evaluation. |
 | 2026-06-30 | Backtracking | 6603 | Solidified the combination algorithm by utilizing a start variable to maintain ascending order and efficiently generate subsets without duplicates. |
+| 2026-07-01 | Dynamic Programming | 11726 | Solved potential IndexError by pre-allocating a fixed-size array based on problem constraints, and optimized memory and speed by applying modulo 10007 at each accumulation step. |
