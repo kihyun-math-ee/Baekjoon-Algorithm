@@ -184,3 +184,4 @@ Commit messages must include the problem number and title.
 | 2026-06-27 | Backtracking | 1182 | Implemented combination-based backtracking to track subsequence sums. Mastered the continuous recursive exploration and proper pop timing without premature returns. |
 | 2026-06-28 | Backtracking | 15654 | Implemented permutation-based backtracking using an explicitly given array. Satisfied the lexicographical order condition by sorting the input array prior to the recursive exploration. |
 | 2026-06-29 | Backtracking | 1759 | Optimized the backtracking algorithm by tracking vowel and consonant counts in real-time during recursive calls, ensuring zero overhead at the base case evaluation. |
+| 2026-06-30 | Backtracking | 6603 | Solidified the combination algorithm by utilizing a start variable to maintain ascending order and efficiently generate subsets without duplicates. |
