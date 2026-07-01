@@ -186,3 +186,4 @@ Commit messages must include the problem number and title.
 | 2026-06-29 | Backtracking | 1759 | Optimized the backtracking algorithm by tracking vowel and consonant counts in real-time during recursive calls, ensuring zero overhead at the base case evaluation. |
 | 2026-06-30 | Backtracking | 6603 | Solidified the combination algorithm by utilizing a start variable to maintain ascending order and efficiently generate subsets without duplicates. |
 | 2026-07-01 | Dynamic Programming | 9461 | Derived the geometric recurrence relation where each side length is the sum of the sides from one and five steps prior, implementing it safely within a pre-allocated array. |
+| 2026-07-02 | Dynamic Programming | 1149 | Implemented a 2D state DP approach to minimize cumulative cost, ensuring adjacent houses do not share the same color by selecting the minimum from the other two previous color states. |
