@@ -189,3 +189,4 @@ Commit messages must include the problem number and title.
 | 2026-07-02 | Dynamic Programming | 1149 | Implemented a 2D state DP approach to minimize cumulative cost, ensuring adjacent houses do not share the same color by selecting the minimum from the other two previous color states. |
 | 2026-07-03 | Dynamic Programming | 1932 | Implemented a 2D DP approach to calculate the maximum cumulative sum path in an integer triangle, efficiently handling edge walls and inner diagonal paths. |
 | 2026-07-04 | Dynamic Programming | 2156 | Implemented a 1D DP state transition to maximize the sum of wine volumes while strictly preventing three consecutive selections. |
+| 2026-07-05 | Dynamic Programming | 2579 | Implemented a 1D DP state transition to maximize the score of climbing stairs while strictly preventing three consecutive steps. |
