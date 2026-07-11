@@ -195,3 +195,4 @@ Commit messages must include the problem number and title.
 | 2026-07-09 | Prefix Sum | 13900 | Optimized the sum of all pairwise products to O(N) time complexity by replacing O(N^2) combinations with O(1) prefix sum queries. |
 | 2026-07-10 | Dynamic Programming | 2705 | Solved recursive palindrome partitions by precomputing all valid combinations up to N=10000 to process each query in O(1) time. |
 | 2026-07-11 | Backtracking | 1821 | Optimized the combination search by applying Pascal's triangle coefficients (combinations) directly to permutations, finding the lexicographically first sequence. |
+| 2026-07-12 | Dynamic Programming | 1463 | Solved the minimum operations problem using a bottom-up dynamic programming approach, checking divisibility by 2 and 3 to compute optimal subproblems in O(N) time. |
