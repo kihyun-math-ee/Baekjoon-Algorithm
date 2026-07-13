@@ -196,3 +196,4 @@ Commit messages must include the problem number and title.
 | 2026-07-10 | Dynamic Programming | 2705 | Solved recursive palindrome partitions by precomputing all valid combinations up to N=10000 to process each query in O(1) time. |
 | 2026-07-11 | Backtracking | 1821 | Optimized the combination search by applying Pascal's triangle coefficients (combinations) directly to permutations, finding the lexicographically first sequence. |
 | 2026-07-12 | Dynamic Programming | 1463 | Solved the minimum operations problem using a bottom-up dynamic programming approach, checking divisibility by 2 and 3 to compute optimal subproblems in O(N) time. |
+| 2026-07-13 | Backtracking | 25328 | Solved the combination problem using backtracking with a `start` index to prevent permutations, bypassed the shallow copy trap using string snapshots (`"".join()`), and optimized intersection finding in $O(1)$ time using Python's `set` operations. |
