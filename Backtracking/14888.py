@@ -1,42 +1,30 @@
 import sys
 
-N = int(sys.stdin.readline())
-sequence = list(map(int, sys.stdin.readline().split()))
-a, b, c, d = map(int, sys.stdin.readline().split())
-cnt = 0
-result = 0
-L = []
-M = -1000000001
-m = 1000000001
-
-def Operator_Sequence(idx, current_result, add, sub, mul, div):
-    global cnt, execution, result, M, m
-    if idx == N:
-        if current_result >= M:
-            M = current_result
-        if m >= current_result:
-            m = current_result
+M = float('-inf')
+m = float('inf')
+def operator(d, current, plus, minus, mult, div):
+    global M
+    global m
+    if d == N:
+        if current > M:
+            M = current
+        if current < m:
+            m = current
         return
     
-    if add > 0:
-        Operator_Sequence(idx + 1, current_result + sequence[idx], add - 1, sub, mul, div)
+    else:
+        if plus != 0:
+            operator(d + 1, current + target[d], plus - 1, minus, mult, div)
+        if minus != 0:
+            operator(d + 1, current - target[d], plus, minus - 1, mult, div)
+        if mult != 0:
+            operator(d + 1, current * target[d], plus, minus, mult - 1, div)
+        if div != 0:
+            operator(d + 1, int(current / target[d]) , plus, minus, mult, div - 1)
 
-    if sub > 0:
-        Operator_Sequence(idx + 1, current_result - sequence[idx], add, sub - 1, mul, div)
-
-    if mul > 0:
-        Operator_Sequence(idx + 1, current_result * sequence[idx], add, sub, mul - 1, div)
-
-    if div > 0:
-        if current_result >= 0:
-            Operator_Sequence(idx + 1, current_result // sequence[idx], add, sub, mul, div - 1)
-
-        else:
-            Operator_Sequence(idx + 1, -(abs(current_result) // sequence[idx]), add, sub, mul, div - 1)
-
-Operator_Sequence(1, sequence[0], a, b, c, d)
+N = int(sys.stdin.readline())
+target = list(map(int, sys.stdin.readline().split()))
+pl, mi, mu, di = map(int, sys.stdin.readline().split())
+operator(1, target[0], pl, mi, mu, di)
 print(M)
 print(m)
-
-
-
