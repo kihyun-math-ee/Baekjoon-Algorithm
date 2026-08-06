@@ -221,3 +221,4 @@ Commit messages must include the problem number and title.
 | 2026-08-04 | Dijkstra | 1238 | Solved the "Party" problem by implementing Dijkstra's algorithm. Optimized the round-trip shortest path calculation from $O(N \cdot E \log V)$ to $O(E \log V)$ by successfully utilizing a reverse graph for incoming paths to the target node. |
 | 2026-08-05 | MST | 1197 | Implemented Kruskal's algorithm to find the Minimum Spanning Tree. Mastered the Union-Find (Disjoint Set) data structure using path compression in find_parent to efficiently detect and prevent graph cycles. |
 | 2026-08-06 | Dijkstra | 1261 | Minimized wall-breaking costs in a 2D grid using Dijkstra's algorithm with a priority queue and optimized boundary checks via infinity padding. |
+| 2026-08-07 | Dijkstra | 1504 | Calculated the minimum cost path traversing two specific nodes by executing Dijkstra's algorithm three times (from start, v1, and v2) and comparing the two possible route permutations. |
