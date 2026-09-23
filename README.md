@@ -31,7 +31,9 @@ Commit messages must include the problem number and title.
 
 ## 📈 GitHub Activity
 
-![GitHub contribution streak](https://streak-stats.demolab.com/?user=kihyun-math-ee&theme=default&hide_border=true&locale=en&timezone=Asia%2FSeoul)
+- **Authored GitHub commits**: **694** on repository default branches (public and private; GitHub commit search, as of 2026-09-24).
+
+[![GitHub contribution calendar for the past year](https://ghchart.rshah.org/kihyun-math-ee)](https://github.com/kihyun-math-ee)
 
 ## 📂 Solution Categories
 
