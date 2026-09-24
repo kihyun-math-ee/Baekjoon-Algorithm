@@ -1,6 +1,6 @@
 # MST
 
-This folder contains 7 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 8 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -13,3 +13,4 @@ This folder contains 7 BOJ solution files. Dates are the earliest recorded study
 | 2026-09-17 | MST | 1774 | Implemented Kruskal's algorithm powered by a Union-Find (Disjoint Set) engine with path compression to construct a Minimum Spanning Tree on 2D coordinates. Pre-merged initially connected components via disjoint sets, generated all candidate Euclidean edges, and greedily selected minimum-cost edges to compute the minimal additional connection cost. |
 | 2026-09-19 | MST | 2887 | Reduced candidate edge space from $O(N^2)$ to $3(N-1)$ by sorting spatial coordinates independently across $X, Y, Z$ axes. Implemented Kruskal's algorithm backed by a path-compressed Disjoint Set to connect 3D celestial coordinates with minimal tunneling cost in $O(N \log N)$ time. |
 | 2026-09-22 | MST | 4386 | Modeled 2D celestial coordinates as a complete Euclidean graph and implemented Kruskal's algorithm backed by a path-compressed Disjoint Set. Generated all $O(N^2)$ candidate distances, sorted edges in ascending order, and greedily selected acyclic connections to determine the minimum cost to form a constellation in $O(N^2 \log N)$ time. |
+| 2026-09-25 | MST | 6497 | Used Prim's algorithm with a min-heap to find the minimum-cost streetlight network for each test case. Subtracted the MST cost from the sum of all road costs to calculate the maximum electricity savings. |
