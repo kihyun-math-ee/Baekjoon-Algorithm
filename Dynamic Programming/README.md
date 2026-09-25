@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-This folder contains 12 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 13 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -18,3 +18,4 @@ This folder contains 12 BOJ solution files. Dates are the earliest recorded stud
 | 2026-07-16 | Dynamic Programming | 1912 | Solved the maximum subarray sum problem using Dynamic Programming (Kadane's Algorithm). Efficiently determined whether to extend the previous contiguous sum or start a new subarray at each step using the recurrence relation `max(dp[i - 1] + L[i], L[i])`. Optimized time complexity to O(N) by calculating the maximum sum in a single pass. |
 | 2026-07-25 | Dynamic Programming | 24416 | Compared the execution counts of recursion and dynamic programming (tabulation) approaches. Demonstrated how DP drastically reduces redundant calculations and optimizes time complexity from $O(2^N)$ to $O(N)$. |
 | 2026-08-27 | Dynamic Programming | 2670 | Implemented an $O(N)$ Dynamic Programming solution to find the maximum contiguous product in an array of floats. Applied a state transition logic to track local maximums by comparing the current element with the product of the previous maximum and the current element. |
+| 2026-09-26 | Dynamic Programming | 11053 | Used an O(N^2) Dynamic Programming approach to find the length of the Longest Increasing Subsequence. For each element, extended the best earlier subsequence ending at a strictly smaller value and returned the maximum DP state. |
