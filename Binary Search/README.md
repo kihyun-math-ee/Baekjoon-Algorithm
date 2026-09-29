@@ -1,6 +1,6 @@
 # Binary Search
 
-This folder contains 6 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 7 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -12,3 +12,4 @@ This folder contains 6 BOJ solution files. Dates are the earliest recorded study
 | 2026-09-06 | Binary Search | 10425 | Precomputed the Fibonacci sequence to establish a search space. Implemented Binary Search to efficiently locate the exact index of extremely large Fibonacci numbers in $O(\log N)$ time. |
 | 2026-09-07 | Binary Search | 2343 | Translated an optimization problem into a decision problem to find the minimum possible blueray size. Established precise boundary conditions (`low = max(L)`, `high = sum(L)`) and implemented an $O(N)$ sequential evaluation logic to validate the partition count within the $O(\log(\sum L))$ search space. |
 | 2026-09-24 | Binary Search | 3896 | Precomputed primes up to 1,299,709 via the Sieve of Eratosthenes. Implemented a custom upper bound binary search to pinpoint bounding primes in $O(\log \pi(M))$ time per query, determining composite sequence intervals without redundant linear scans. |
+| 2026-09-30 | Binary Search | 2805 | Used binary search to find the highest saw height that yields at least the required amount of wood. Calculated the wood collected for each candidate height and retained the maximum feasible height. |
