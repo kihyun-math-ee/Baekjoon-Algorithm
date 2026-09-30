@@ -1,6 +1,6 @@
 # Backtracking
 
-This folder contains 16 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 17 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -22,3 +22,4 @@ This folder contains 16 BOJ solution files. Dates are the earliest recorded stud
 | 2026-07-26 | Backtracking | 18511 | Implemented a backtracking algorithm to find the maximum possible number under a given limit using a specific set of digits. Optimized the state space exploration by mathematically constructing the integer dynamically (current_num * 10 + s[i]) to avoid string manipulation overhead. |
 | 2026-07-28 | Backtracking | 15686 | Implemented a backtracking algorithm to generate combinations of M chicken shops. Calculated the minimum Manhattan distance from all houses to the selected shops to optimize the city's total chicken distance. |
 | 2026-08-03 | Backtracking | 10971 | Solved the Traveling Salesperson Problem (TSP) by implementing a backtracking algorithm. Effectively utilized state restoration (pop/unvisit) after recursive DFS calls to explore all valid route permutations and track the minimum cycle cost. |
+| 2026-10-01 | Backtracking | 15655 | Sorted the input numbers and used backtracking with an increasing start index to generate all length-M combinations in lexicographic order without duplicate selections. |
