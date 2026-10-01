@@ -1,6 +1,6 @@
 # Graph Traversal
 
-This folder contains 10 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 11 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -16,3 +16,4 @@ This folder contains 10 BOJ solution files. Dates are the earliest recorded stud
 | 2026-08-23 | Graph Traversal | 2468 | Implemented Depth-First Search (DFS) to calculate the maximum number of safe areas across all possible water levels. Optimized grid traversal by applying a 0-padding boundary strategy to eliminate redundant out-of-bounds checks. Safely managed Python's recursion depth overhead using `sys.setrecursionlimit`. |
 | 2026-09-08 | Graph Traversal | 2667 | Used BFS to count connected housing components in a padded 2D grid. |
 | 2026-09-09 | Graph Traversal | 7562 | Used BFS with a deque to find the shortest knight path on a padded chessboard. |
+| 2026-10-02 | Graph Traversal | 2606 | Built an undirected adjacency list and used recursive DFS from computer 1 to find all reachable computers. Marked visited nodes to avoid repeated traversal and excluded the starting computer from the final count. |
