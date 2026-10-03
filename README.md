@@ -25,13 +25,13 @@ Commit messages must include the problem number and title.
 ## 📊 Repository Summary
 
 - **Archive**: BOJ problem-solving code and chronological study notes.
-- **Archived BOJ solutions**: 333 distinct problem-numbered Python files as of 2026-10-02. This counts repository files, not verified accepted submissions.
+- **Archived BOJ solutions**: 334 distinct problem-numbered Python files as of 2026-10-04. This counts repository files, not verified accepted submissions.
 - **Organization**: Each numbered file is placed under its primary topic or event folder. The filename is the BOJ problem number.
 - **Early practice**: Three non-BOJ Python exercises are kept in [`Practice`](Practice/README.md) and excluded from the count.
 
 ## 📈 GitHub Activity
 
-- **Authored GitHub commits**: **706** on repository default branches (public and private; GitHub commit search, as of 2026-10-02).
+- **Authored GitHub commits**: **708** on repository default branches (public and private; GitHub commit search, as of 2026-10-04).
 
 [![GitHub contribution calendar for the past year](https://ghchart.rshah.org/kihyun-math-ee)](https://github.com/kihyun-math-ee)
 
@@ -48,7 +48,7 @@ Commit messages must include the problem number and title.
 | [Data Structure](Data%20Structure/README.md) | 26 |
 | [Dijkstra](Dijkstra/README.md) | 10 |
 | [Disjoint Set](Disjoint%20Set/README.md) | 4 |
-| [Dynamic Programming](Dynamic%20Programming/README.md) | 13 |
+| [Dynamic Programming](Dynamic%20Programming/README.md) | 14 |
 | [Events](Events/README.md) | 1 |
 | [Floyd Warshall](Floyd%20Warshall/README.md) | 5 |
 | [Geometry](Geometry/README.md) | 12 |
