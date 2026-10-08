@@ -1,6 +1,6 @@
 # Backtracking
 
-This folder contains 18 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 19 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -24,3 +24,4 @@ This folder contains 18 BOJ solution files. Existing dates follow the original S
 | 2026-08-03 | Backtracking | 10971 | Solved the Traveling Salesperson Problem (TSP) by implementing a backtracking algorithm. Effectively utilized state restoration (pop/unvisit) after recursive DFS calls to explore all valid route permutations and track the minimum cycle cost. |
 | 2026-10-01 | Backtracking | 15655 | Sorted the input numbers and used backtracking with an increasing start index to generate all length-M combinations in lexicographic order without duplicate selections. |
 | 2026-10-07 | Backtracking | 15656 | Sorted the input numbers and used recursive backtracking to generate all length-M sequences with repetition in lexicographic order. Reused every input value at each depth and restored the current sequence with `append()` and `pop()` between recursive branches. |
+| 2026-10-09 | Backtracking | 10819 | Used recursive backtracking to enumerate all index-based permutations and maximize the sum of absolute differences between adjacent elements. Tracked selected indices with a set and restored the sequence and visited state after each recursive branch. Evaluated each complete permutation in O(N), giving O(N * N!) total time and O(N) auxiliary space. |
