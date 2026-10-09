@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-This folder contains 14 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 15 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -20,3 +20,4 @@ This folder contains 14 BOJ solution files. Existing dates follow the original S
 | 2026-08-27 | Dynamic Programming | 2670 | Implemented an $O(N)$ Dynamic Programming solution to find the maximum contiguous product in an array of floats. Applied a state transition logic to track local maximums by comparing the current element with the product of the previous maximum and the current element. |
 | 2026-09-26 | Dynamic Programming | 11053 | Used an O(N^2) Dynamic Programming approach to find the length of the Longest Increasing Subsequence. For each element, extended the best earlier subsequence ending at a strictly smaller value and returned the maximum DP state. |
 | 2026-10-04 | Dynamic Programming | 11055 | Used an O(N^2) Dynamic Programming approach to find the maximum sum of a strictly increasing subsequence. Initialized each DP state with its element value, extended earlier states only when A[j] < A[i], and returned the maximum DP sum using O(N) auxiliary space. |
+| 2026-10-10 | Dynamic Programming | 10844 | Used a 2D Dynamic Programming table indexed by length and final digit to count stair numbers. Excluded leading zero in the initial state, handled the boundary digits 0 and 9 separately, and combined the two neighboring digit states for digits 1 through 8. Applied modulo 1,000,000,000 to the final total using O(N) DP states. |
