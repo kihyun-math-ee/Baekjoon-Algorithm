@@ -1,6 +1,6 @@
 # Prefix Sum
 
-This folder contains 6 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 7 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -12,3 +12,4 @@ This folder contains 6 BOJ solution files. Existing dates follow the original St
 | 2026-07-24 | Prefix Sum | 26090 | Counted valid continuous subsegments where both the length and the sum of the elements are prime numbers. Implemented an $O(\sqrt{N})$ prime checking function and efficiently calculated subsegment sums to prevent time limit exceeded (TLE). |
 | 2026-07-27 | Prefix Sum | 16507 | Optimized 2D subgrid sum queries from O(R * C) to O(1) by precomputing a 2D prefix sum matrix. Applied the inclusion-exclusion principle to accurately extract the exact sum of the target area and compute the average brightness efficiently. |
 | 2026-10-05 | Prefix Sum | 11441 | Built a 1-indexed Prefix Sum array to answer inclusive range-sum queries in O(1) using `prefix_sum[right] - prefix_sum[left - 1]`. Preprocessed the sequence in O(N), giving O(N + M) total time and O(N) auxiliary space. |
+| 2026-10-14 | Prefix Sum | 11660 | Precomputed a zero-padded 2D Prefix Sum table using inclusion-exclusion. Answered each rectangular sum query in O(1) after O(N^2) preprocessing, with O(N^2) auxiliary space. |
