@@ -1,6 +1,6 @@
 # Two Pointers
 
-This folder contains 12 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 13 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -18,3 +18,4 @@ This folder contains 12 BOJ solution files. Dates are the earliest recorded stud
 | 2026-09-02 | Two Pointers | 2559 | Implemented an $O(N)$ sliding window algorithm to find the maximum contiguous sum in an array. Optimized memory and runtime by calculating the initial window sum and updating only the incoming and outgoing boundary elements, eliminating redundant calculations. |
 | 2026-09-04 | Two Pointers | 20922 | Implemented a sliding window architecture utilizing two pointers to find the maximum contiguous subarray length. Constructed a hash map frequency counter using `dict(zip())` to track occurrences efficiently. Maintained O(N) time complexity by dynamically adjusting the `left` and `right` bounds whenever an element's frequency reached the threshold. |
 | 2026-09-05 | Two Pointers | 22862 | Implemented an $O(N)$ sliding window algorithm using two pointers. Dynamically managed the maximum length of contiguous even numbers by tracking and limiting the count of odd numbers (deletions) within the current window. |
+| 2026-10-16 | Two Pointers | 21921 | Used an O(N) fixed-size Sliding Window to track X-day visitor totals. Updated each sum by adding the incoming day and subtracting the outgoing day, counted ties for the maximum, and printed `SAD` when every window sum was zero. |
