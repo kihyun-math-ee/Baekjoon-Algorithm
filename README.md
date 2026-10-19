@@ -25,7 +25,7 @@ Commit messages must include the problem number and title.
 ## 📊 Repository Summary
 
 - **Archive**: BOJ problem-solving code and chronological study notes.
-- **Archived BOJ solutions**: 344 distinct problem-numbered Python files as of 2026-10-19. This counts repository files, not verified accepted submissions.
+- **Archived BOJ solutions**: 345 distinct problem-numbered Python files as of 2026-10-20. This counts repository files, not verified accepted submissions.
 - **Organization**: Each numbered file is placed under its primary topic or event folder. The filename is the BOJ problem number.
 - **Early practice**: Three non-BOJ Python exercises are kept in [`Practice`](Practice/README.md) and excluded from the count.
 
@@ -66,7 +66,7 @@ Commit messages must include the problem number and title.
 | [Sorting](Sorting/README.md) | 19 |
 | [Strings](Strings/README.md) | 22 |
 | [TimeComplexity](TimeComplexity/README.md) | 7 |
-| [Topological Sort](Topological%20Sort/README.md) | 5 |
+| [Topological Sort](Topological%20Sort/README.md) | 6 |
 | [Two Pointers](Two%20Pointers/README.md) | 13 |
 
 ## 📅 Study Log
