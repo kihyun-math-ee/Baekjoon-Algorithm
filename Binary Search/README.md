@@ -1,6 +1,6 @@
 # Binary Search
 
-This folder contains 9 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 10 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -15,3 +15,4 @@ This folder contains 9 BOJ solution files. Existing dates follow the original St
 | 2026-09-30 | Binary Search | 2805 | Used binary search to find the highest saw height that yields at least the required amount of wood. Calculated the wood collected for each candidate height and retained the maximum feasible height. |
 | 2026-10-15 | Binary Search | 11663 | Sorted the point coordinates and implemented custom lower_bound and upper_bound Binary Search to count points in each inclusive line segment. Subtracted the insertion indices for O(log N) time per query after O(N log N) sorting. |
 | 2026-10-19 | Binary Search | 2417 | Used Binary Search to find the smallest nonnegative integer `q` satisfying `q * q >= n`. Handled `n = 0` separately and narrowed the integer range `[1, n]` for positive inputs without floating-point rounding, using O(log n) time and O(1) auxiliary space. |
+| 2026-10-21 | Binary Search | 7795 | Sorted the B sizes and used a custom `lower_bound` Binary Search for each A size to count strictly smaller B values. Summed the insertion indices, correctly excluding equal sizes, in O(M log M + N log(M + 1)) time per test case. |
