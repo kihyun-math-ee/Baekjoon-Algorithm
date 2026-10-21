@@ -25,7 +25,7 @@ Commit messages must include the problem number and title.
 ## 📊 Repository Summary
 
 - **Archive**: BOJ problem-solving code and chronological study notes.
-- **Archived BOJ solutions**: 346 distinct problem-numbered Python files as of 2026-10-21. This counts repository files, not verified accepted submissions.
+- **Archived BOJ solutions**: 347 distinct problem-numbered Python files as of 2026-10-22. This counts repository files, not verified accepted submissions.
 - **Organization**: Each numbered file is placed under its primary topic or event folder. The filename is the BOJ problem number.
 - **Early practice**: Three non-BOJ Python exercises are kept in [`Practice`](Practice/README.md) and excluded from the count.
 
@@ -52,7 +52,7 @@ Commit messages must include the problem number and title.
 | [Events](Events/README.md) | 1 |
 | [Floyd Warshall](Floyd%20Warshall/README.md) | 5 |
 | [Geometry](Geometry/README.md) | 12 |
-| [Graph Traversal](Graph%20Traversal/README.md) | 11 |
+| [Graph Traversal](Graph%20Traversal/README.md) | 12 |
 | [Greedy](Greedy/README.md) | 13 |
 | [Implementation](Implementation/README.md) | 14 |
 | [Loops](Loops/README.md) | 13 |

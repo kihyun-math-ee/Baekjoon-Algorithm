@@ -1,6 +1,6 @@
 # Graph Traversal
 
-This folder contains 11 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 12 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -17,3 +17,4 @@ This folder contains 11 BOJ solution files. Existing dates follow the original S
 | 2026-09-08 | Graph Traversal | 2667 | Used BFS to count connected housing components in a padded 2D grid. |
 | 2026-09-09 | Graph Traversal | 7562 | Used BFS with a deque to find the shortest knight path on a padded chessboard. |
 | 2026-10-02 | Graph Traversal | 2606 | Built an undirected adjacency list and used recursive DFS from computer 1 to find all reachable computers. Marked visited nodes to avoid repeated traversal and excluded the starting computer from the final count. |
+| 2026-10-22 | Graph Traversal | 7576 | Initialized a multi-source Breadth-First Search (BFS) from all ripe tomatoes using `collections.deque`. Surrounded the 2D grid with `-1` padding to avoid boundary checks, tracked remaining unripe tomatoes, and returned the minimum ripening days, `0` when none were unripe, or `-1` when some were unreachable. |
