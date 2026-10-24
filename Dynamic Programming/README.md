@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-This folder contains 16 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 17 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -22,3 +22,4 @@ This folder contains 16 BOJ solution files. Existing dates follow the original S
 | 2026-10-04 | Dynamic Programming | 11055 | Used an O(N^2) Dynamic Programming approach to find the maximum sum of a strictly increasing subsequence. Initialized each DP state with its element value, extended earlier states only when A[j] < A[i], and returned the maximum DP sum using O(N) auxiliary space. |
 | 2026-10-10 | Dynamic Programming | 10844 | Used a 2D Dynamic Programming table indexed by length and final digit to count stair numbers. Excluded leading zero in the initial state, handled the boundary digits 0 and 9 separately, and combined the two neighboring digit states for digits 1 through 8. Applied modulo 1,000,000,000 to the final total using O(N) DP states. |
 | 2026-10-11 | Dynamic Programming | 12865 | Implemented a 2D Dynamic Programming solution for the 0/1 Knapsack problem. Indexed states by item count and weight capacity, compared skipping each item with selecting it from the previous row, and prevented repeated selection of the same item. Computed the maximum total value within the capacity limit using O(NK) time and space. |
+| 2026-10-25 | Dynamic Programming | 8394 | Used a Fibonacci-style Dynamic Programming recurrence to count handshake arrangements while retaining only the two previous values. Applied modulo 10 at each transition to return the last digit in O(N) time and O(1) auxiliary space. |
