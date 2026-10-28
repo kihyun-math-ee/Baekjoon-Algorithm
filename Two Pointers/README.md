@@ -1,6 +1,6 @@
 # Two Pointers
 
-This folder contains 14 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 15 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -20,3 +20,4 @@ This folder contains 14 BOJ solution files. Existing dates follow the original S
 | 2026-09-05 | Two Pointers | 22862 | Implemented an $O(N)$ sliding window algorithm using two pointers. Dynamically managed the maximum length of contiguous even numbers by tracking and limiting the count of odd numbers (deletions) within the current window. |
 | 2026-10-16 | Two Pointers | 21921 | Used an O(N) fixed-size Sliding Window to track X-day visitor totals. Updated each sum by adding the incoming day and subtracting the outgoing day, counted ties for the maximum, and printed `SAD` when every window sum was zero. |
 | 2026-10-23 | Two Pointers | 10025 | Stored ice quantities by coordinate and used a fixed-size Sliding Window of width `2K + 1` to find the maximum amount collectable at any position. Calculated the initial sum once, then updated it by adding the entering bucket and subtracting the leaving bucket in O(N + 1,000,001) time and O(1,000,001) space. |
+| 2026-10-29 | Two Pointers | 15961 | Used a fixed-size Sliding Window over the circular sushi belt by appending its first K plates. Tracked type frequencies in a dictionary, updated the distinct count as plates entered and left the window, and added the coupon type only when it was absent. Examined all starting positions in O(N + K) time. |
