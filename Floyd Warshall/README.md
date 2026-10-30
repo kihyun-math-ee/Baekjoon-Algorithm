@@ -1,6 +1,6 @@
 # Floyd Warshall
 
-This folder contains 6 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 7 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -12,3 +12,4 @@ This folder contains 6 BOJ solution files. Existing dates follow the original St
 | 2026-09-14 | Floyd Warshall | 11403 | Implemented the Floyd-Warshall algorithm to compute the transitive closure of a directed graph. Optimized the $O(N^3)$ relaxation phase by using simple boolean logic checks (`graph[i][k] == 1 and graph[k][j] == 1`) instead of arithmetic distance tracking, accurately determining the reachability between all pairs of nodes. |
 | 2026-09-15 | Floyd Warshall | 14938 | Implemented the Floyd-Warshall algorithm to evaluate all-pairs shortest paths on an undirected graph. Handled parallel edges by tracking minimum edge weights, accurately checked search radius boundaries (`graph[y][x] <= m`) from each drop point, and optimized total item harvesting within an efficient $O(N^3)$ time complexity. |
 | 2026-10-26 | Floyd Warshall | 1389 | Applied Floyd-Warshall to an undirected friendship graph to compute all-pairs shortest distances in $O(N^3)$ time and $O(N^2)$ space. Summed each user's distances and selected the lowest-indexed user on ties by updating the result only for a strictly smaller total. |
+| 2026-10-31 | Floyd Warshall | 1956 | Applied Floyd-Warshall to a directed weighted graph, retaining the minimum weight among parallel edges. Kept diagonal distances initially infinite so nonempty cycles could be detected, then selected the smallest diagonal distance after $O(V^3)$ relaxation with $O(V^2)$ space, and printed `-1` when no cycle existed. |
