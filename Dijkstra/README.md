@@ -1,6 +1,6 @@
 # Dijkstra
 
-This folder contains 10 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 11 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -16,3 +16,4 @@ This folder contains 10 BOJ solution files. Dates are the earliest recorded stud
 | 2026-08-19 | Dijkstra | 2158 | Implemented Dijkstra's algorithm using a priority queue (`heapq`) to find the path with the minimum time traversal on a 2D grid. Applied a boundary padding technique using `float('inf')` to eliminate redundant bounds-checking branches during traversal, optimizing the execution speed. Successfully processed dynamic edge weights based on elevation differences and velocity, formatting the final result to two decimal places. |
 | 2026-08-28 | Dijkstra | 4485 | Implemented Dijkstra's algorithm with a priority queue to find the minimum cost path in a 2D grid. Optimized grid traversal by padding the matrix boundaries with infinite weights, effectively eliminating conditional branching overhead for out-of-bounds checks. |
 | 2026-09-10 | Dijkstra | 5972 | Implemented Dijkstra's algorithm using a priority queue (`heapq`) to find the minimum cost path in an undirected graph. Optimized the traversal process by explicitly filtering out outdated paths from the heap, successfully achieving an efficient $O(E \log V)$ time complexity. |
+| 2026-11-02 | Dijkstra | 10282 | Used a min-heap to propagate infection times along reversed dependency edges (`b -> a`), skipped outdated queue entries, counted reachable computers, and reported the latest infection time. |
