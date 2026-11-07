@@ -1,6 +1,6 @@
 # Math
 
-This folder contains 17 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 18 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -23,3 +23,4 @@ This folder contains 17 BOJ solution files. Dates are the earliest recorded stud
 | 2026-06-13 | Math | 2622 | Solved the triangle construction problem in O(N) time by iterating through the longest side and mathematically calculating the valid range for the second longest side. |
 | 2026-06-14 | Math | 6986 | Computed the trimmed and adjusted means after sorting the scores, successfully mitigating Python's default round-to-even behavior by adding a tiny epsilon (1e-8) before formatting to two decimal places. |
 | 2026-06-25 | Math | 1459 | Calculated the minimum cost to reach a destination coordinate by comparing three movement strategies: purely orthogonal moves, a mix of diagonal and orthogonal moves, and zigzag diagonal moves (handling even/odd coordinate sums). |
+| 2026-11-08 | Math | 1011 | Counted paired movement lengths by subtracting `2 * k` from the remaining distance, then used `ceil(remaining / k)` for the final segment. Calculated the minimum number of moves between two positions in O(sqrt(y - x)) time and O(1) auxiliary space. |
