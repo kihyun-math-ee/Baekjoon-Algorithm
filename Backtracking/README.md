@@ -1,6 +1,6 @@
 # Backtracking
 
-This folder contains 21 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
+This folder contains 22 BOJ solution files. Existing dates follow the original Study Log; new entries use the archive date.
 
 ## 📅 Study Log
 
@@ -27,3 +27,4 @@ This folder contains 21 BOJ solution files. Existing dates follow the original S
 | 2026-10-09 | Backtracking | 10819 | Used recursive backtracking to enumerate all index-based permutations and maximize the sum of absolute differences between adjacent elements. Tracked selected indices with a set and restored the sequence and visited state after each recursive branch. Evaluated each complete permutation in O(N), giving O(N * N!) total time and O(N) auxiliary space. |
 | 2026-11-03 | Backtracking | 2992 | Generated digit permutations with recursive Backtracking, tracked used indices to handle repeated digits, and selected the smallest number greater than the input; printed `0` when none existed. |
 | 2026-11-05 | Backtracking | 1007 | Enumerated half-size point subsets with Backtracking, fixing the first point to avoid complementary duplicate assignments. Used total coordinate sums minus twice the selected sums to minimize the resultant vector length. |
+| 2026-11-09 | Backtracking | 14889 | Enumerated all size-N/2 team assignments with recursive Backtracking. For each assignment, summed ordered-pair synergies within the Start and Link teams and minimized the absolute difference. |
