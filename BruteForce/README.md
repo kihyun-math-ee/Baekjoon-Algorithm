@@ -1,6 +1,6 @@
 # BruteForce
 
-This folder contains 13 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 14 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
 
 ## 📅 Study Log
 
@@ -19,3 +19,4 @@ This folder contains 13 BOJ solution files. Dates are the earliest recorded stud
 | 2026-06-10 | BruteForce | 2303 | Solved the card game problem by implementing a 3-depth nested loop to find combinations without duplication, and utilized descending tuple sorting to effectively handle tie-breaker conditions. |
 | 2026-06-21 | BruteForce | 1337 | Implemented a brute-force search over a sorted array, checking how many of the 5 consecutive numbers starting from each element are already present to find the minimum required additions. |
 | 2026-08-02 | BruteForce | 14717 | Implemented a brute-force algorithm to simulate all 153 possible opponent hand combinations from the remaining 18 cards. Accurately calculated the win probability based on game rules (Pair vs Modulo 10 sum) and formatted the output to three decimal places. |
+| 2026-11-12 | BruteForce | 1025 | Enumerated starting cells and signed row/column steps, concatenated digits along each path, and tracked the largest perfect square. Considered single-cell values and used a square-root check for each candidate. |
