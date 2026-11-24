@@ -1,6 +1,6 @@
 # NumberTheory
 
-This folder contains 20 BOJ solution files. Dates are the earliest recorded study dates in the original Study Log.
+This folder contains 21 BOJ solution files. Historical dates come from the original Study Log; new entries record the archive date.
 
 ## 📅 Study Log
 
@@ -26,3 +26,4 @@ This folder contains 20 BOJ solution files. Dates are the earliest recorded stud
 | 2026-04-05 | NumberTheory | 14490 | Parsed a ratio and divided both terms by their greatest common divisor. |
 | 2026-05-03 | NumberTheory | 1564 | Prevented Python BigInt memory allocation overhead using modular arithmetic (10^8 buffer) and implemented robust string zero-padding (zfill). |
 | 2026-05-25 | NumberTheory | 4375 | Optimized large number divisibility checks using modular arithmetic properties instead of string concatenation to prevent memory and time limit overflows. |
+| 2026-11-25 | NumberTheory | 1124 | Archived a trial-division solution that counts prime factors with multiplicity and tests whether that count is prime. Reduced the remaining factor during division and counted any leftover prime factor. |
