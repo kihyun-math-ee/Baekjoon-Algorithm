@@ -1,6 +1,6 @@
 # Recursion
 
-This folder contains 10 BOJ solution files. Historical dates come from the original Study Log; new entries record the archive date.
+This folder contains 11 BOJ solution files. Historical dates come from the original Study Log; new entries record the archive date.
 
 ## 📅 Study Log
 
@@ -16,3 +16,4 @@ This folder contains 10 BOJ solution files. Historical dates come from the origi
 | 2026-06-08 | Recursion | 1629 | Implemented a recursive divide and conquer algorithm to efficiently calculate modular exponentiation in O(log N) time. |
 | 2026-06-24 | Recursion | 7113 | Calculated the number of squares cut from a rectangle by accumulating return values (1 + recursion) without using global variables. Fully internalized the concepts of Call Stack unwinding and value substitution in pure recursion. |
 | 2026-11-26 | Recursion | 10994 | Archived a recursive solution that starts with a star-filled grid and clears the inner border of each nested square. Moved the origin inward by two cells at each recursive call and printed each row with join in O(N^2) time and space. |
+| 2026-11-27 | Recursion | 10997 | Archived a previously prepared solution that recursively draws each outer spiral and continues two cells inward. Handled N = 1 separately and printed the grid with join and rstrip in O(N^2) time and space. |

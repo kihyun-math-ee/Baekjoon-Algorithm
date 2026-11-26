@@ -25,13 +25,13 @@ Commit messages must include the problem number and title.
 ## 📊 Repository Summary
 
 - **Archive**: BOJ problem-solving code and chronological study notes.
-- **Archived BOJ solutions**: 364 distinct problem-numbered Python files as of 2026-11-26. This counts repository files, not verified accepted submissions.
+- **Archived BOJ solutions**: 365 distinct problem-numbered Python files as of 2026-11-27. This counts repository files, not verified accepted submissions.
 - **Organization**: Each numbered file is placed under its primary topic or event folder. The filename is the BOJ problem number.
 - **Early practice**: Three non-BOJ Python exercises are kept in [`Practice`](Practice/README.md) and excluded from the count.
 
 ## 📈 GitHub Activity
 
-- **Authored GitHub commits**: **762** on repository default branches (public and private; GitHub commit search snapshot at 2026-11-26 00:11 KST, before this archive commit).
+- **Authored GitHub commits**: **763** on repository default branches (public and private; GitHub commit search snapshot at 2026-11-27 KST, before this archive commit).
 
 [![GitHub contribution calendar for the past year](https://ghchart.rshah.org/kihyun-math-ee)](https://github.com/kihyun-math-ee)
 
@@ -61,7 +61,7 @@ Commit messages must include the problem number and title.
 | [MST](MST/README.md) | 8 |
 | [NumberTheory](NumberTheory/README.md) | 21 |
 | [Prefix Sum](Prefix%20Sum/README.md) | 8 |
-| [Recursion](Recursion/README.md) | 10 |
+| [Recursion](Recursion/README.md) | 11 |
 | [Set_Map](Set_Map/README.md) | 18 |
 | [Sorting](Sorting/README.md) | 19 |
 | [Strings](Strings/README.md) | 22 |
